@@ -1,0 +1,7 @@
+/home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/install.dir
+/home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/list_install_components.dir
+/home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/rebuild_cache.dir
+/home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/edit_cache.dir
+/home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/install/strip.dir
+/home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/install/local.dir
+/home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/rknn_covid_demo.dir

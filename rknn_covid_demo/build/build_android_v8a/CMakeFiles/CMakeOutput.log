@@ -1,0 +1,472 @@
+The target system is: Android - 24 - aarch64
+The host system is: Linux - 5.4.0-124-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/3.18.4/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/3.18.4/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1fc89/fast && /usr/bin/make  -f CMakeFiles/cmTC_1fc89.dir/build.make CMakeFiles/cmTC_1fc89.dir/build
+make[1]: Entering directory '/home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o
+/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/home/abc/chip/android-ndk-r17c/sysroot  -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=24 -fexceptions  -g -fPIE   -v -o CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o -c /home/abc/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc
+Target: aarch64-linux-android
+Configured with: /buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/d2087558cf57fc8b596d8eebe6b67058 --target=aarch64-linux-android --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/d2087558cf57fc8b596d8eebe6b67058 --with-sysroot=/tmp/d2087558cf57fc8b596d8eebe6b67058/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/d2087558cf57fc8b596d8eebe6b67058/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-ld=default --enable-threads --enable-eh-frame-hdr-for-static --enable-fix-cortex-a53-835769 --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --program-transform-name='s&^&aarch64-linux-android-&' --enable-gold
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COLLECT_GCC_OPTIONS='-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android' '-funwind-tables' '-D' '__ANDROID_API__=24' '-fexceptions' '-g' '-fPIE' '-v' '-o' 'CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/cc1 -quiet -v -iprefix /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/ -isysroot /home/abc/chip/android-ndk-r17c/sysroot -D __ANDROID_API__=24 -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android /home/abc/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.18/Modules/CMakeCCompilerABI.c -mbionic -fpic -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o -g -version -funwind-tables -fexceptions -fPIE -o /tmp/ccXwltka.s
+GNU C (GCC) version 4.9.x 20150123 (prerelease) (aarch64-linux-android)
+	compiled by GNU C version 4.8, GMP version 5.0.5, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/include"
+ignoring duplicate directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/aarch64-linux-android/4.9.x/include"
+ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/sysroot/usr/local/include"
+ignoring duplicate directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/aarch64-linux-android/4.9.x/include-fixed"
+ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/include"
+ignoring duplicate directory "/home/abc/chip/android-ndk-r17c/sysroot/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/abc/chip/android-ndk-r17c/sysroot/usr/include
+ /home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android
+ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/include
+ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/include-fixed
+End of search list.
+GNU C (GCC) version 4.9.x 20150123 (prerelease) (aarch64-linux-android)
+	compiled by GNU C version 4.8, GMP version 5.0.5, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: c5526b0cb4781ad08129426dbc3d7be4
+COLLECT_GCC_OPTIONS='-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android' '-funwind-tables' '-D' '__ANDROID_API__=24' '-fexceptions' '-g' '-fPIE' '-v' '-o' 'CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o /tmp/ccXwltka.s
+GNU assembler version 2.27.0 (aarch64-linux-android) using BFD version (binutils-2.27-bf0c2e8) 2.27.0.20170315
+COMPILER_PATH=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/
+LIBRARY_PATH=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/:/home/abc/chip/android-ndk-r17c/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android' '-funwind-tables' '-D' '__ANDROID_API__=24' '-fexceptions' '-g' '-fPIE' '-v' '-o' 'CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+Linking C executable cmTC_1fc89
+/home/abc/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fc89.dir/link.txt --verbose=1
+/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=24 -fexceptions  -g -fPIE -pie -Wl,--gc-sections -v CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o -o cmTC_1fc89 
+Using built-in specs.
+COLLECT_GCC=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc
+COLLECT_LTO_WRAPPER=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper
+Target: aarch64-linux-android
+Configured with: /buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/d2087558cf57fc8b596d8eebe6b67058 --target=aarch64-linux-android --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/d2087558cf57fc8b596d8eebe6b67058 --with-sysroot=/tmp/d2087558cf57fc8b596d8eebe6b67058/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/d2087558cf57fc8b596d8eebe6b67058/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-ld=default --enable-threads --enable-eh-frame-hdr-for-static --enable-fix-cortex-a53-835769 --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --program-transform-name='s&^&aarch64-linux-android-&' --enable-gold
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/
+LIBRARY_PATH=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/:/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib/
+COLLECT_GCC_OPTIONS='-funwind-tables' '-D' '__ANDROID_API__=24' '-fexceptions' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_1fc89' '-mlittle-endian' '-mabi=lp64'
+ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2 -plugin /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6KUbQf.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64 --eh-frame-hdr -dynamic-linker /system/bin/linker64 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -z noexecstack -z relro -z now -pie -o cmTC_1fc89 /home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib/crtbegin_dynamic.o -L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x -L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib --gc-sections CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib/crtend_android.o
+make[1]: Leaving directory '/home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/abc/chip/android-ndk-r17c/sysroot/usr/include]
+    add: [/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android]
+    add: [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/include]
+    add: [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/include-fixed]
+  end of search list found
+  collapse include dir [/home/abc/chip/android-ndk-r17c/sysroot/usr/include] ==> [/home/abc/chip/android-ndk-r17c/sysroot/usr/include]
+  collapse include dir [/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android] ==> [/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android]
+  collapse include dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/include] ==> [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/include]
+  collapse include dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/include-fixed] ==> [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/include-fixed]
+  implicit include dirs: [/home/abc/chip/android-ndk-r17c/sysroot/usr/include;/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android;/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/include;/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/include-fixed]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_1fc89/fast && /usr/bin/make  -f CMakeFiles/cmTC_1fc89.dir/build.make CMakeFiles/cmTC_1fc89.dir/build]
+  ignore line: [make[1]: Entering directory '/home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/home/abc/chip/android-ndk-r17c/sysroot  -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=24 -fexceptions  -g -fPIE   -v -o CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o -c /home/abc/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.18/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc]
+  ignore line: [Target: aarch64-linux-android]
+  ignore line: [Configured with: /buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/d2087558cf57fc8b596d8eebe6b67058 --target=aarch64-linux-android --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/d2087558cf57fc8b596d8eebe6b67058 --with-sysroot=/tmp/d2087558cf57fc8b596d8eebe6b67058/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/d2087558cf57fc8b596d8eebe6b67058/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-ld=default --enable-threads --enable-eh-frame-hdr-for-static --enable-fix-cortex-a53-835769 --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --program-transform-name='s&^&aarch64-linux-android-&' --enable-gold]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android' '-funwind-tables' '-D' '__ANDROID_API__=24' '-fexceptions' '-g' '-fPIE' '-v' '-o' 'CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/cc1 -quiet -v -iprefix /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/ -isysroot /home/abc/chip/android-ndk-r17c/sysroot -D __ANDROID_API__=24 -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android /home/abc/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.18/Modules/CMakeCCompilerABI.c -mbionic -fpic -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o -g -version -funwind-tables -fexceptions -fPIE -o /tmp/ccXwltka.s]
+  ignore line: [GNU C (GCC) version 4.9.x 20150123 (prerelease) (aarch64-linux-android)]
+  ignore line: [	compiled by GNU C version 4.8  GMP version 5.0.5  MPFR version 3.1.1  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/include"]
+  ignore line: [ignoring duplicate directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/aarch64-linux-android/4.9.x/include"]
+  ignore line: [ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/aarch64-linux-android/4.9.x/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/include"]
+  ignore line: [ignoring duplicate directory "/home/abc/chip/android-ndk-r17c/sysroot/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/abc/chip/android-ndk-r17c/sysroot/usr/include]
+  ignore line: [ /home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android]
+  ignore line: [ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/include]
+  ignore line: [ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (GCC) version 4.9.x 20150123 (prerelease) (aarch64-linux-android)]
+  ignore line: [	compiled by GNU C version 4.8  GMP version 5.0.5  MPFR version 3.1.1  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: c5526b0cb4781ad08129426dbc3d7be4]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android' '-funwind-tables' '-D' '__ANDROID_API__=24' '-fexceptions' '-g' '-fPIE' '-v' '-o' 'CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o /tmp/ccXwltka.s]
+  ignore line: [GNU assembler version 2.27.0 (aarch64-linux-android) using BFD version (binutils-2.27-bf0c2e8) 2.27.0.20170315]
+  ignore line: [COMPILER_PATH=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/]
+  ignore line: [LIBRARY_PATH=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/:/home/abc/chip/android-ndk-r17c/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android' '-funwind-tables' '-D' '__ANDROID_API__=24' '-fexceptions' '-g' '-fPIE' '-v' '-o' 'CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking C executable cmTC_1fc89]
+  ignore line: [/home/abc/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fc89.dir/link.txt --verbose=1]
+  ignore line: [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=24 -fexceptions  -g -fPIE -pie -Wl --gc-sections -v CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o -o cmTC_1fc89 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper]
+  ignore line: [Target: aarch64-linux-android]
+  ignore line: [Configured with: /buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/d2087558cf57fc8b596d8eebe6b67058 --target=aarch64-linux-android --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/d2087558cf57fc8b596d8eebe6b67058 --with-sysroot=/tmp/d2087558cf57fc8b596d8eebe6b67058/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/d2087558cf57fc8b596d8eebe6b67058/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-ld=default --enable-threads --enable-eh-frame-hdr-for-static --enable-fix-cortex-a53-835769 --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --program-transform-name='s&^&aarch64-linux-android-&' --enable-gold]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/]
+  ignore line: [LIBRARY_PATH=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/:/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-funwind-tables' '-D' '__ANDROID_API__=24' '-fexceptions' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_1fc89' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2 -plugin /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6KUbQf.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64 --eh-frame-hdr -dynamic-linker /system/bin/linker64 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -z noexecstack -z relro -z now -pie -o cmTC_1fc89 /home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib/crtbegin_dynamic.o -L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x -L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib --gc-sections CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib/crtend_android.o]
+    arg [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6KUbQf.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-835769] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1fc89] ==> ignore
+    arg [/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x]
+    arg [-L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc]
+    arg [-L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64]
+    arg [-L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib]
+    arg [-L/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib] ==> dir [/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_1fc89.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x] ==> [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  collapse library dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc]
+  collapse library dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib64]
+  collapse library dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib]
+  collapse library dir [/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib] ==> [/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib]
+  implicit libs: [gcc;c;dl;gcc]
+  implicit dirs: [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x;/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc;/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib64;/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib;/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e2c97/fast && /usr/bin/make  -f CMakeFiles/cmTC_e2c97.dir/build.make CMakeFiles/cmTC_e2c97.dir/build
+make[1]: Entering directory '/home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o
+/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/home/abc/chip/android-ndk-r17c/sysroot  -isystem /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/abc/chip/android-ndk-r17c/sources/android/support/include -isystem /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=24 -fexceptions -frtti  -g -fPIE   -v -o CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o -c /home/abc/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++
+Target: aarch64-linux-android
+Configured with: /buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/d2087558cf57fc8b596d8eebe6b67058 --target=aarch64-linux-android --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/d2087558cf57fc8b596d8eebe6b67058 --with-sysroot=/tmp/d2087558cf57fc8b596d8eebe6b67058/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/d2087558cf57fc8b596d8eebe6b67058/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-ld=default --enable-threads --enable-eh-frame-hdr-for-static --enable-fix-cortex-a53-835769 --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --program-transform-name='s&^&aarch64-linux-android-&' --enable-gold
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COLLECT_GCC_OPTIONS='-isystem' '/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sources/android/support/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android' '-funwind-tables' '-D' '__ANDROID_API__=24' '-fexceptions' '-frtti' '-g' '-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlittle-endian' '-mabi=lp64'
+ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/cc1plus -quiet -v -iprefix /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/ -isysroot /home/abc/chip/android-ndk-r17c/sysroot -D_GNU_SOURCE -D __ANDROID_API__=24 -isystem /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/abc/chip/android-ndk-r17c/sources/android/support/include -isystem /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android /home/abc/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -mbionic -fpic -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o -g -version -funwind-tables -fexceptions -frtti -fPIE -o /tmp/ccAaZU3j.s
+GNU C++ (GCC) version 4.9.x 20150123 (prerelease) (aarch64-linux-android)
+	compiled by GNU C version 4.8, GMP version 5.0.5, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/include"
+ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../include/c++/4.9.x"
+ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../include/c++/4.9.x/aarch64-linux-android"
+ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../include/c++/4.9.x/backward"
+ignoring duplicate directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/aarch64-linux-android/4.9.x/include"
+ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/sysroot/usr/local/include"
+ignoring duplicate directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/aarch64-linux-android/4.9.x/include-fixed"
+ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/include"
+ignoring duplicate directory "/home/abc/chip/android-ndk-r17c/sysroot/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include
+ /home/abc/chip/android-ndk-r17c/sources/android/support/include
+ /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include
+ /home/abc/chip/android-ndk-r17c/sysroot/usr/include
+ /home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android
+ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/include
+ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/include-fixed
+End of search list.
+GNU C++ (GCC) version 4.9.x 20150123 (prerelease) (aarch64-linux-android)
+	compiled by GNU C version 4.8, GMP version 5.0.5, MPFR version 3.1.1, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 33ce5a3d21f67555d44faff4891662f7
+COLLECT_GCC_OPTIONS='-isystem' '/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sources/android/support/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android' '-funwind-tables' '-D' '__ANDROID_API__=24' '-fexceptions' '-frtti' '-g' '-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlittle-endian' '-mabi=lp64'
+ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccAaZU3j.s
+GNU assembler version 2.27.0 (aarch64-linux-android) using BFD version (binutils-2.27-bf0c2e8) 2.27.0.20170315
+COMPILER_PATH=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/
+LIBRARY_PATH=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/:/home/abc/chip/android-ndk-r17c/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-isystem' '/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sources/android/support/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android' '-funwind-tables' '-D' '__ANDROID_API__=24' '-fexceptions' '-frtti' '-g' '-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlittle-endian' '-mabi=lp64'
+Linking CXX executable cmTC_e2c97
+/home/abc/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2c97.dir/link.txt --verbose=1
+/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=24 -fexceptions -frtti  -g -fPIE -pie -Wl,--gc-sections -v CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e2c97   "/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_static.a" "/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++abi.a" -latomic -nodefaultlibs -lgcc -lc -lm -ldl 
+Using built-in specs.
+COLLECT_GCC=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++
+COLLECT_LTO_WRAPPER=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper
+Target: aarch64-linux-android
+Configured with: /buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/d2087558cf57fc8b596d8eebe6b67058 --target=aarch64-linux-android --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/d2087558cf57fc8b596d8eebe6b67058 --with-sysroot=/tmp/d2087558cf57fc8b596d8eebe6b67058/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/d2087558cf57fc8b596d8eebe6b67058/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-ld=default --enable-threads --enable-eh-frame-hdr-for-static --enable-fix-cortex-a53-835769 --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --program-transform-name='s&^&aarch64-linux-android-&' --enable-gold
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/
+LIBRARY_PATH=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/:/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib/
+COLLECT_GCC_OPTIONS='-funwind-tables' '-D' '__ANDROID_API__=24' '-fexceptions' '-frtti' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_e2c97' '-nodefaultlibs' '-mlittle-endian' '-mabi=lp64'
+ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2 -plugin /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/cczrLXfm.res --sysroot=/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64 --eh-frame-hdr -dynamic-linker /system/bin/linker64 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -z noexecstack -z relro -z now -pie -o cmTC_e2c97 /home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib/crtbegin_dynamic.o -L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x -L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib --gc-sections CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_static.a /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++abi.a -latomic -lgcc -lc -lm -ldl /home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib/crtend_android.o
+make[1]: Leaving directory '/home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include]
+    add: [/home/abc/chip/android-ndk-r17c/sources/android/support/include]
+    add: [/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include]
+    add: [/home/abc/chip/android-ndk-r17c/sysroot/usr/include]
+    add: [/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android]
+    add: [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/include]
+    add: [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/include-fixed]
+  end of search list found
+  collapse include dir [/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include] ==> [/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include]
+  collapse include dir [/home/abc/chip/android-ndk-r17c/sources/android/support/include] ==> [/home/abc/chip/android-ndk-r17c/sources/android/support/include]
+  collapse include dir [/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include] ==> [/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include]
+  collapse include dir [/home/abc/chip/android-ndk-r17c/sysroot/usr/include] ==> [/home/abc/chip/android-ndk-r17c/sysroot/usr/include]
+  collapse include dir [/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android] ==> [/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android]
+  collapse include dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/include] ==> [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/include]
+  collapse include dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/include-fixed] ==> [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/include-fixed]
+  implicit include dirs: [/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include;/home/abc/chip/android-ndk-r17c/sources/android/support/include;/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include;/home/abc/chip/android-ndk-r17c/sysroot/usr/include;/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android;/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/include;/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/include-fixed]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_e2c97/fast && /usr/bin/make  -f CMakeFiles/cmTC_e2c97.dir/build.make CMakeFiles/cmTC_e2c97.dir/build]
+  ignore line: [make[1]: Entering directory '/home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/home/abc/chip/android-ndk-r17c/sysroot  -isystem /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/abc/chip/android-ndk-r17c/sources/android/support/include -isystem /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=24 -fexceptions -frtti  -g -fPIE   -v -o CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o -c /home/abc/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++]
+  ignore line: [Target: aarch64-linux-android]
+  ignore line: [Configured with: /buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/d2087558cf57fc8b596d8eebe6b67058 --target=aarch64-linux-android --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/d2087558cf57fc8b596d8eebe6b67058 --with-sysroot=/tmp/d2087558cf57fc8b596d8eebe6b67058/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/d2087558cf57fc8b596d8eebe6b67058/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-ld=default --enable-threads --enable-eh-frame-hdr-for-static --enable-fix-cortex-a53-835769 --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --program-transform-name='s&^&aarch64-linux-android-&' --enable-gold]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sources/android/support/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android' '-funwind-tables' '-D' '__ANDROID_API__=24' '-fexceptions' '-frtti' '-g' '-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/cc1plus -quiet -v -iprefix /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/ -isysroot /home/abc/chip/android-ndk-r17c/sysroot -D_GNU_SOURCE -D __ANDROID_API__=24 -isystem /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/abc/chip/android-ndk-r17c/sources/android/support/include -isystem /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android /home/abc/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -mbionic -fpic -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o -g -version -funwind-tables -fexceptions -frtti -fPIE -o /tmp/ccAaZU3j.s]
+  ignore line: [GNU C++ (GCC) version 4.9.x 20150123 (prerelease) (aarch64-linux-android)]
+  ignore line: [	compiled by GNU C version 4.8  GMP version 5.0.5  MPFR version 3.1.1  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/include"]
+  ignore line: [ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../include/c++/4.9.x"]
+  ignore line: [ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../include/c++/4.9.x/aarch64-linux-android"]
+  ignore line: [ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../include/c++/4.9.x/backward"]
+  ignore line: [ignoring duplicate directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/aarch64-linux-android/4.9.x/include"]
+  ignore line: [ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/aarch64-linux-android/4.9.x/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/../../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/include"]
+  ignore line: [ignoring duplicate directory "/home/abc/chip/android-ndk-r17c/sysroot/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include]
+  ignore line: [ /home/abc/chip/android-ndk-r17c/sources/android/support/include]
+  ignore line: [ /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include]
+  ignore line: [ /home/abc/chip/android-ndk-r17c/sysroot/usr/include]
+  ignore line: [ /home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android]
+  ignore line: [ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/include]
+  ignore line: [ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (GCC) version 4.9.x 20150123 (prerelease) (aarch64-linux-android)]
+  ignore line: [	compiled by GNU C version 4.8  GMP version 5.0.5  MPFR version 3.1.1  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 33ce5a3d21f67555d44faff4891662f7]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sources/android/support/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android' '-funwind-tables' '-D' '__ANDROID_API__=24' '-fexceptions' '-frtti' '-g' '-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccAaZU3j.s]
+  ignore line: [GNU assembler version 2.27.0 (aarch64-linux-android) using BFD version (binutils-2.27-bf0c2e8) 2.27.0.20170315]
+  ignore line: [COMPILER_PATH=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/]
+  ignore line: [LIBRARY_PATH=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/:/home/abc/chip/android-ndk-r17c/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sources/android/support/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include' '-isystem' '/home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android' '-funwind-tables' '-D' '__ANDROID_API__=24' '-fexceptions' '-frtti' '-g' '-fPIE' '-v' '-o' 'CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking CXX executable cmTC_e2c97]
+  ignore line: [/home/abc/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2c97.dir/link.txt --verbose=1]
+  ignore line: [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=24 -fexceptions -frtti  -g -fPIE -pie -Wl,--gc-sections -v CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e2c97   "/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_static.a" "/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++abi.a" -latomic -nodefaultlibs -lgcc -lc -lm -ldl ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper]
+  ignore line: [Target: aarch64-linux-android]
+  ignore line: [Configured with: /buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/d2087558cf57fc8b596d8eebe6b67058 --target=aarch64-linux-android --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/d2087558cf57fc8b596d8eebe6b67058 --with-sysroot=/tmp/d2087558cf57fc8b596d8eebe6b67058/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/d2087558cf57fc8b596d8eebe6b67058/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-ld=default --enable-threads --enable-eh-frame-hdr-for-static --enable-fix-cortex-a53-835769 --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --program-transform-name='s&^&aarch64-linux-android-&' --enable-gold]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/]
+  ignore line: [LIBRARY_PATH=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64/:/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/:/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-funwind-tables' '-D' '__ANDROID_API__=24' '-fexceptions' '-frtti' '-g' '-fPIE' '-pie' '-v' '-o' 'cmTC_e2c97' '-nodefaultlibs' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2 -plugin /home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/cczrLXfm.res --sysroot=/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64 --eh-frame-hdr -dynamic-linker /system/bin/linker64 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -z noexecstack -z relro -z now -pie -o cmTC_e2c97 /home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib/crtbegin_dynamic.o -L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x -L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib --gc-sections CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_static.a /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++abi.a -latomic -lgcc -lc -lm -ldl /home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib/crtend_android.o]
+    arg [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cczrLXfm.res] ==> ignore
+    arg [--sysroot=/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-835769] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e2c97] ==> ignore
+    arg [/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x]
+    arg [-L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc]
+    arg [-L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64]
+    arg [-L/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib]
+    arg [-L/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib] ==> dir [/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_e2c97.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_static.a] ==> lib [/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_static.a]
+    arg [/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++abi.a] ==> lib [/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++abi.a]
+    arg [-latomic] ==> lib [atomic]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lm] ==> lib [m]
+    arg [-ldl] ==> lib [dl]
+    arg [/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x] ==> [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  collapse library dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc]
+  collapse library dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib64]
+  collapse library dir [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib]
+  collapse library dir [/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib] ==> [/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib]
+  implicit libs: [/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_static.a;/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++abi.a;atomic;gcc;c;m;dl]
+  implicit dirs: [/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x;/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc;/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib64;/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib;/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_08173/fast && /usr/bin/make  -f CMakeFiles/cmTC_08173.dir/build.make CMakeFiles/cmTC_08173.dir/build
+make[1]: 进入目录“/home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_08173.dir/feature_tests.cxx.o
+/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/home/abc/chip/android-ndk-r17c/sysroot  -isystem /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/include -isystem /home/abc/chip/android-ndk-r17c/sources/android/support/include -isystem /home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++abi/include -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include -isystem /home/abc/chip/android-ndk-r17c/sysroot/usr/include/aarch64-linux-android -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=24 -fexceptions -frtti  -g -fPIE   -std=c++14 -o CMakeFiles/cmTC_08173.dir/feature_tests.cxx.o -c /home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_08173
+/home/abc/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08173.dir/link.txt --verbose=1
+/home/abc/chip/android-ndk-r17c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ --sysroot=/home/abc/chip/android-ndk-r17c/platforms/android-24/arch-arm64 -funwind-tables -no-canonical-prefixes -D__ANDROID_API__=24 -fexceptions -frtti  -g -fPIE -pie -Wl,--gc-sections  CMakeFiles/cmTC_08173.dir/feature_tests.cxx.o -o cmTC_08173   "/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_static.a" "/home/abc/chip/android-ndk-r17c/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++abi.a" -latomic -nodefaultlibs -lgcc -lc -lm -ldl 
+make[1]: 离开目录“/home/abc/chip/rknpu2/examples/rknn_covid_demo/build/build_android_v8a/CMakeFiles/CMakeTmp”
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates

@@ -1,0 +1,5 @@
+/home/abc/chip/rknpu2/examples/rknn_covid_demo/install/rknn_covid_demo_Android/./rknn_covid_demo
+/home/abc/chip/rknpu2/examples/rknn_covid_demo/install/rknn_covid_demo_Android/lib/librknnrt.so
+/home/abc/chip/rknpu2/examples/rknn_covid_demo/install/rknn_covid_demo_Android/.//model/coco_80_labels_list.txt
+/home/abc/chip/rknpu2/examples/rknn_covid_demo/install/rknn_covid_demo_Android/.//model/RK356X/face.rknn
+/home/abc/chip/rknpu2/examples/rknn_covid_demo/install/rknn_covid_demo_Android/.//model/RK356X/hrnet.rknn
